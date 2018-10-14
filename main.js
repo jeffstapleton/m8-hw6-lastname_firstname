@@ -6,4 +6,4 @@ function shakeBall() {
     });
 };
 
-console.log(shakeBall[0]);
+document.getElementsByTagName(button) = shakeBall[0];
