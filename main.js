@@ -6,4 +6,6 @@ function shakeBall() {
     });
 }
 
-console.log(shakeBall);
+var button = document.getElementsByTagName('button')[0];
+
+button.addEventListener('click', shakeBall);
