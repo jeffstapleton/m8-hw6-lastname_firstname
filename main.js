@@ -7,6 +7,7 @@ function shakeBall() {
     var fortuneText = document.createTextNode(magicFortunes[0]);
     yourFortune.appendChild(fortuneText);
     //shakeBall.removeChild('button');
+    yourFortune.classList.add('.fortune-show');
 };
 
 var button = document.getElementsByTagName('button')[0];
