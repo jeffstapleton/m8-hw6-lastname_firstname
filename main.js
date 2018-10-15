@@ -4,7 +4,6 @@ function shakeBall() {
     magicFortunes.sort(function(a, b){
         return 0.5 - Math.random()
     });
-    
-    document.getElementsByTagName('button') = shakeBall[0];
-};
+}
 
+console.log(shakeBall);
