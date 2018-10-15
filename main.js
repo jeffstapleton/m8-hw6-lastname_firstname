@@ -11,3 +11,5 @@ var button = document.getElementsByTagName('button')[0];
 button.addEventListener('click', shakeBall);
 
 var yourFortune = document.querySelector('span');
+
+var fortuneTextPlaceholder = document.createTextNode('');
