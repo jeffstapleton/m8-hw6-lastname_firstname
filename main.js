@@ -9,3 +9,5 @@ function shakeBall() {
 var button = document.getElementsByTagName('button')[0];
 
 button.addEventListener('click', shakeBall);
+
+var yourFortune = document.querySelector('span');
