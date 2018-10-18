@@ -22,7 +22,8 @@ h1 {
 	border-radius: 200px;
 	position: relative;
 	margin-bottom: 20px;
-
+    /*BONUS DETAIL */
+    background: radial-gradient(circle at 100px 100px, #666, #000);
 }
 #fortune-wrapper p {
 	color: white;
