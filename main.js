@@ -4,6 +4,7 @@ var button = document.getElementsByTagName('button')[0];
 var yourFortune = document.querySelector('#fortune-wrapper > p > span');
 var fortuneTextPlaceholder = document.createTextNode('');
 yourFortune.appendChild(fortuneTextPlaceholder);
+var buttonParent = document.getElementById('#generator-button');
 
 function shakeBall() {
     magicFortunes.sort(function(a, b){
@@ -14,8 +15,6 @@ function shakeBall() {
     //shakeBall.removeChild('button');
     yourFortune.classList.add('fortune-show');
 };
-
-
 
 button.addEventListener('click', shakeBall);
 
