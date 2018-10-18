@@ -4,7 +4,7 @@ var button = document.getElementsByTagName('button')[0];
 var yourFortune = document.querySelector('#fortune-wrapper > p > span');
 var fortuneTextPlaceholder = document.createTextNode('');
 yourFortune.appendChild(fortuneTextPlaceholder);
-var buttonParent = document.getElementById('#generator-button');
+var buttonParent = document.getElementById('generator-button');
 
 function shakeBall() {
     magicFortunes.sort(function(a, b){
@@ -12,8 +12,8 @@ function shakeBall() {
     });
     var fortuneText = document.createTextNode(magicFortunes[0]);
     yourFortune.appendChild(fortuneText);
-    //shakeBall.removeChild('button');
     yourFortune.classList.add('fortune-show');
+    buttonParent.removeChild(button);
 };
 
 button.addEventListener('click', shakeBall);
